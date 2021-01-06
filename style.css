@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    /*from Google research: Remove defult margin padding */
+}
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+}
+/*from Google reseacrh How to add icon in button*/
+.material-icons{
+     font-size: 18; 
+    }
+/* All Heading Style and Paragraph Style and text-color Style Start*/
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-top: 20%;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-size: 40px;
+    padding-bottom: 60px;
+    font-family:  'Bebas Neue', cursive;
+    font-weight: 200;
+}
+h4{
+    color:#00b7ff;
+    font-size: 18px;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+    color:#8f7622;
+    font-size: 20px;
+    margin-top:0%;
+    margin-bottom: 10%;
+}
+.blue-text{
+    color: #514BD2;
+}
+.orange-text{
+    color: tomato;
+}
+/* All Heading Style and Paragraph Style and text-color Style END*/
+
+/*Top Section Style IMG BG HEIGHT WIDTH PADDING MERGIN START*/
+.top-sec{
+    width: 100%;
+    height: 435px;
+    background-image: url(images/top-sec-bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    margin: 0%;
+}
+.sec-half{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 5%;
+}
+.sec-half > img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Top Section Style IMG BG HEIGHT WIDTH PADDING MERGIN END*/
+
+.link-button-blue{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,blue,cyan);
+    padding: 20px 85px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+
+}
+
+/*MID SECTION STYLE AND EXTRA STYLE ADD*/
+
+.mid-sec{
+    background-image: url(images/mid-sec-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-bottom: 100px;
+}
+.link-button-orange{
+text-decoration: none;
+background-image: linear-gradient(45deg,tomato,orange);
+padding: 20px 85px;
+margin-top: 10px;
+font-size: 20px;
+color: white;
+font-weight: 800;
+text-transform: capitalize;
+}
+.work-sec{
+    background-color: #F8F9FC;
+    padding-bottom: 100px;
+
+}
+.recent-work{
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    margin: 0px 100px;
+        background-color: #F8F9FC;
+}
+.img-work{
+    width: 27%;
+    height: 300px;
+    float: left;
+    padding: 30px 0px;
+    background-color: white;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 5%;
+   box-shadow: 10px 10px 20px gray;
+}
+.img-work img{
+    height: 180px;
+    width: 300px;
+}
+.caption{
+    color :#6C6C6C;
+    padding: 20px 10px;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+.work-img{
+    position: absolute;
+    width: 887px;
+    height: 200px;
+    left: 270px;
+    top: 2135px;
+}
+.work-inq{
+    height: 600px;
+    background-image: url(images/exp-bg.png),linear-gradient(60deg,cyan,darkblue);
+    background-repeat: no-repeat;
+    background-position: center left;
+    border-bottom: 7px solid ;
+    border-image: linear-gradient(60deg,orange,#0136A4);
+    border-image-slice: 1;
+}
+#work-text{
+    position: absolute;
+    left: 331px;
+    top: 2210px;
+    color: honeydew;
+}
+#live-button{
+    position: absolute;
+    left: 880px;
+    top: 2204px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(24, 24, 255),rgb(0, 4, 255));
+    padding: 20px 45px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.white-text{
+    color: rgb(255, 255, 255);
+}
+#footer-img{
+    height: 300px;
+    width: 300px;
+}
+
+/*EXTRA SECTION STYLE START FORM HERE*/
+.connect{
+    padding-top: 150px;
+    height: 550px;
+    background-image: url(images/mrs.png), linear-gradient(90deg,orange,#FEECCC);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.input{
+    width: 450px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    border-radius: 30px;
+    background-color: #FFA901;
+}
+.button-connect{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#F97B61,#ffbb00);
+    padding: 20px 85px;
+    margin-left:30%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+/*EXTRA SECTION STYLE END HERE*/
+
+/*FOOTER STYLE START AND FOOTER HEADING,IMAGE STYLE START*/
+footer{
+    height: 200px;
+    background-color: #000000;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url(images/unnamed.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+h5{
+    color:#ffffff;
+    font-size: 20px;
+    font-family:  'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+h6{
+    padding-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+footer> a >img {
+    padding-top: 25px;
+    height: 40px;
+    width: 40px;
+    margin-left: 1%;
+}
+/*FOOTER STYLE START AND FOOTER HEADING,IMAGE STYLE START*/
